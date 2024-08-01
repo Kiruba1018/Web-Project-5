@@ -1,0 +1,30 @@
+body{
+    background-color: #000a1f;
+}
+
+
+.container{
+    height: 450px;
+    width: 70%;
+    margin: 100px 0 0 200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.i5, .i4, .i3, .i2, .i1  {
+    height: 450px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out;
+}
+.container img:hover{
+    width: 250px;
+}
+h1{
+    color: white;
+    margin-left: 600px;
+}
+
+
